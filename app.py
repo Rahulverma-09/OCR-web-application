@@ -5,8 +5,8 @@ from PIL import Image
 from googletrans import Translator
 
 # Configuration of Pytesseract
-tessdata_directory = r'C:\\Program Files\\Tesseract OCR\\tessdata'
-pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract OCR\\tesseract.exe'
+tessdata_directory = r'..\\Program Files\\Tesseract OCR\\tessdata'
+pytesseract.pytesseract.tesseract_cmd = r'..\\Program Files\\Tesseract OCR\\tesseract.exe'
 
 
 # Define function to display response and keyword searching
